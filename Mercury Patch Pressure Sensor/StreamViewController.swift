@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StreamViewController.swift
 //  Mercury Patch Pressure Sensor
 //
 //  Created by Sean Mattson on 1/19/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class StreamViewController: UIViewController, UITextFieldDelegate {
 
     // MARK: Properties
     @IBOutlet weak var patientNameLabel: UILabel!

@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C376F021C5182110068A0FE /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C376F011C5182110068A0FE /* GraphViewController.swift */; };
+		9C376F0F1C5188A40068A0FE /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C376F0A1C5187E80068A0FE /* Charts.framework */; };
+		9C376F101C5188A40068A0FE /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C376F0A1C5187E80068A0FE /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9CBEED961C4EB3FD00323E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEED951C4EB3FD00323E98 /* AppDelegate.swift */; };
-		9CBEED981C4EB3FD00323E98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEED971C4EB3FD00323E98 /* ViewController.swift */; };
+		9CBEED981C4EB3FD00323E98 /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEED971C4EB3FD00323E98 /* StreamViewController.swift */; };
 		9CBEED9B1C4EB3FD00323E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBEED991C4EB3FD00323E98 /* Main.storyboard */; };
 		9CBEED9D1C4EB3FD00323E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBEED9C1C4EB3FD00323E98 /* Assets.xcassets */; };
 		9CBEEDA01C4EB3FD00323E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBEED9E1C4EB3FD00323E98 /* LaunchScreen.storyboard */; };
@@ -16,6 +19,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9C376F091C5187E80068A0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C376F031C5187E60068A0FE /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		9C376F0B1C5187E80068A0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C376F031C5187E60068A0FE /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		9C376F0D1C5187E80068A0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C376F031C5187E60068A0FE /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		9C376F111C5188A40068A0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C376F031C5187E60068A0FE /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
 		9CBEEDA71C4EB3FD00323E98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9CBEED8A1C4EB3FD00323E98 /* Project object */;
@@ -25,10 +56,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9C376F131C5188A50068A0FE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9C376F101C5188A40068A0FE /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9C376F011C5182110068A0FE /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		9C376F031C5187E60068A0FE /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../ios-charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
 		9CBEED921C4EB3FD00323E98 /* Mercury Patch Pressure Sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercury Patch Pressure Sensor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBEED951C4EB3FD00323E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CBEED971C4EB3FD00323E98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CBEED971C4EB3FD00323E98 /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
 		9CBEED9A1C4EB3FD00323E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CBEED9C1C4EB3FD00323E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CBEED9F1C4EB3FD00323E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C376F0F1C5188A40068A0FE /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +104,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C376F041C5187E60068A0FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C376F0A1C5187E80068A0FE /* Charts.framework */,
+				9C376F0C1C5187E80068A0FE /* Charts.framework */,
+				9C376F0E1C5187E80068A0FE /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9CBEED891C4EB3FD00323E98 = {
 			isa = PBXGroup;
 			children = (
 				9CBEED941C4EB3FD00323E98 /* Mercury Patch Pressure Sensor */,
 				9CBEEDA91C4EB3FD00323E98 /* Mercury Patch Pressure SensorTests */,
 				9CBEED931C4EB3FD00323E98 /* Products */,
+				9C376F031C5187E60068A0FE /* Charts.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +137,9 @@
 			isa = PBXGroup;
 			children = (
 				9CBEED951C4EB3FD00323E98 /* AppDelegate.swift */,
-				9CBEED971C4EB3FD00323E98 /* ViewController.swift */,
+				9CBEED971C4EB3FD00323E98 /* StreamViewController.swift */,
 				9CBEED991C4EB3FD00323E98 /* Main.storyboard */,
+				9C376F011C5182110068A0FE /* GraphViewController.swift */,
 				9CBEED9C1C4EB3FD00323E98 /* Assets.xcassets */,
 				9CBEED9E1C4EB3FD00323E98 /* LaunchScreen.storyboard */,
 				9CBEEDA11C4EB3FD00323E98 /* Info.plist */,
@@ -106,10 +166,12 @@
 				9CBEED8E1C4EB3FD00323E98 /* Sources */,
 				9CBEED8F1C4EB3FD00323E98 /* Frameworks */,
 				9CBEED901C4EB3FD00323E98 /* Resources */,
+				9C376F131C5188A50068A0FE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9C376F121C5188A40068A0FE /* PBXTargetDependency */,
 			);
 			name = "Mercury Patch Pressure Sensor";
 			productName = "Mercury Patch Pressure Sensor";
@@ -164,6 +226,12 @@
 			mainGroup = 9CBEED891C4EB3FD00323E98;
 			productRefGroup = 9CBEED931C4EB3FD00323E98 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9C376F041C5187E60068A0FE /* Products */;
+					ProjectRef = 9C376F031C5187E60068A0FE /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9CBEED911C4EB3FD00323E98 /* Mercury Patch Pressure Sensor */,
@@ -171,6 +239,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9C376F0A1C5187E80068A0FE /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 9C376F091C5187E80068A0FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C376F0C1C5187E80068A0FE /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 9C376F0B1C5187E80068A0FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C376F0E1C5187E80068A0FE /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 9C376F0D1C5187E80068A0FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9CBEED901C4EB3FD00323E98 /* Resources */ = {
@@ -197,7 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CBEED981C4EB3FD00323E98 /* ViewController.swift in Sources */,
+				9C376F021C5182110068A0FE /* GraphViewController.swift in Sources */,
+				9CBEED981C4EB3FD00323E98 /* StreamViewController.swift in Sources */,
 				9CBEED961C4EB3FD00323E98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +306,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9C376F121C5188A40068A0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 9C376F111C5188A40068A0FE /* PBXContainerItemProxy */;
+		};
 		9CBEEDA81C4EB3FD00323E98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9CBEED911C4EB3FD00323E98 /* Mercury Patch Pressure Sensor */;
@@ -327,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Mercury Patch Pressure Sensor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tactimed.Mercury-Patch-Pressure-Sensor";
@@ -338,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Mercury Patch Pressure Sensor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tactimed.Mercury-Patch-Pressure-Sensor";
@@ -388,6 +488,7 @@
 				9CBEEDB11C4EB3FE00323E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CBEEDB21C4EB3FE00323E98 /* Build configuration list for PBXNativeTarget "Mercury Patch Pressure SensorTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +497,7 @@
 				9CBEEDB41C4EB3FE00323E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

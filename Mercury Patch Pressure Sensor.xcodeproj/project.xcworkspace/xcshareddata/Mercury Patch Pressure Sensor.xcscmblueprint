@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D2B35DC0976C997BE63970D6547C748AEED3AB4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0D2B35DC0976C997BE63970D6547C748AEED3AB4" : 0,
+    "FDE5B827183BF6AE1C6C98E1588FD556767B955A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9EE5F7BB-15A1-462F-AD40-3FF3767162D2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0D2B35DC0976C997BE63970D6547C748AEED3AB4" : "Mercury%20Patch%20Pressure%20Sensor\/",
+    "FDE5B827183BF6AE1C6C98E1588FD556767B955A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Mercury Patch Pressure Sensor",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Mercury Patch Pressure Sensor.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/seanmattson\/Mercury-Patch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D2B35DC0976C997BE63970D6547C748AEED3AB4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/seanmattson\/Mercury-Patch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FDE5B827183BF6AE1C6C98E1588FD556767B955A"
+    }
+  ]
+}
